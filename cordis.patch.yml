@@ -1,0 +1,14 @@
+# ============================================================================
+# Aemeath 桌宠（aemeath-dsh）— DSH bundle patch
+# 本文件把插件挂进 web profile 的配置树（bundle 层）：
+#   - id  : 配置树里的条目 id（保持唯一即可）
+#   - name: 要加载的插件包名（必须与 package.json 的 name 一致）
+#
+# 安装方式：
+#   dsh plugin --profile web add github:<你的用户名>/aemeath-dsh
+# 或本地开发安装：
+#   dsh plugin --profile web add link:<本目录绝对路径>
+# ============================================================================
+- insert:
+    - id: aemeath-dsh
+      name: aemeath-dsh

@@ -1,0 +1,34 @@
+{
+  "name": "aemeath-dsh",
+  "version": "0.1.0",
+  "description": "Aemeath 桌宠 —— 基于 dsh-whale-widget 二次开发的 DSH 桌面宠物挂件：粉色主题、点击换脸、自定义音效（笑声/变身）、每轮完成音效开关",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "pet",
+    "widget",
+    "aemeath"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "author": "Aemeath",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xu-qichen/aemeath-dsh.git"
+  },
+  "homepage": "https://github.com/xu-qichen/aemeath-dsh#readme"
+}
