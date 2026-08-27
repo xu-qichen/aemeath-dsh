@@ -170,5 +170,5 @@ curl http://127.0.0.1:3080/aemeath-dsh/sound/finish.mp3
 本项目基于 [MeteorNOX/DeepSeek-Balance-Whale-Widget](https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget)（MIT）二次开发，保留原插件的余额/记账/峰谷/每轮消耗等全部核心能力。许可证见 [LICENSE](LICENSE)（MIT，含原作者署名）。
 
 - 插件代码：MIT
-- Aemeath 形象与皮肤：作者原创
+- Aemeath 形象与皮肤：版权归原权利方，仅供个人学习
 - 内置音效片段：版权归原权利方，仅供个人学习
